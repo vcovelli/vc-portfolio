@@ -34,7 +34,7 @@ export default function Hero() {
         {/* Social Links */}
         <div className="social-links">
           <a
-            href="https://github.com/vincecovelli"
+            href="https://github.com/vcovelli"
             className="social-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -42,7 +42,7 @@ export default function Hero() {
             <FaGithub size={32} />
           </a>
           <a
-            href="https://linkedin.com/in/vincecovelli"
+            href="https://linkedin.com/in/vincent-covelli"
             className="social-link"
             target="_blank"
             rel="noopener noreferrer"

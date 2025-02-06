@@ -51,13 +51,13 @@ export default function Contact() {
 
         {/* Social Links */}
         <div className="flex justify-center gap-6 mt-6">
-          <a href="mailto:vcovelli@example.com" className="text-gray-300 hover:text-white transition duration-300">
+          <a href="mailto:vincentcovelli1@gmail.com" className="text-gray-300 hover:text-white transition duration-300">
             <FaEnvelope size={28} />
           </a>
           <a href="https://github.com/vcovelli" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition duration-300">
             <FaGithub size={28} />
           </a>
-          <a href="https://linkedin.com/in/vincecovelli" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition duration-300">
+          <a href="https://linkedin.com/in/vincent-covelli" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition duration-300">
             <FaLinkedin size={28} />
           </a>
         </div>
