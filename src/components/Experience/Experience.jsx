@@ -31,16 +31,15 @@ export default function Experience() {
           Experience
         </h2>
 
-        <div className="relative border-l-4 border-yellow-400 pl-6 space-y-12">
+        <div className="timeline">
           {experiences.map((exp, index) => (
             <motion.div
               key={index}
-              className="relative"
+              className="timeline-item"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <div className="absolute -left-7 w-5 h-5 bg-yellow-400 rounded-full"></div>
               <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
                 <h3 className="text-2xl font-semibold text-white">{exp.title}</h3>
                 <p className="text-gray-400 text-sm">{exp.company} | {exp.duration}</p>
@@ -53,3 +52,4 @@ export default function Experience() {
     </section>
   );
 }
+

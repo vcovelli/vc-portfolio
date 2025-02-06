@@ -1,31 +1,57 @@
 .timeline {
     position: relative;
-    padding: 1rem;
+    padding: 1rem 0;
   }
   
   .timeline::before {
     content: '';
     position: absolute;
-    left: 15px; /* Adjust this to align with the dots */
+    left: 25px; /* Aligns the line closer to the dots */
     top: 0;
     bottom: 0;
     width: 3px;
-    background-color: #facc15; /* Adjust to match your theme */
+    background-color: #facc15; /* Line color */
   }
   
   .timeline-item {
     position: relative;
     margin-bottom: 2rem;
+    padding-left: 60px; /* Adds padding to shift the content away from the line */
+    transition: transform 0.4s ease, box-shadow 0.4s ease, border-radius 0.4s ease;
+    border-radius: 12px; /* Consistent rounded corners */
   }
   
   .timeline-item::before {
     content: '';
     position: absolute;
-    left: 8px; /* Align with the vertical line */
-    top: 0;
-    width: 12px;
-    height: 12px;
-    background-color: #facc15; /* Same as the line color */
+    left: 18.25px; /* Fine-tunes dot alignment with the line */
+    top: 50%; /* Centers the dot vertically with the timeline */
+    transform: translateY(-50%); /* Adjusts for perfect centering */
+    width: 16px;
+    height: 16px;
+    background-color: #facc15; /* Dot color */
     border-radius: 50%;
+    transition: box-shadow 0.4s ease;
   }
-  
+
+  /* Hover Effects */
+.timeline-item:hover {
+  transform: translateY(-5px); /* Slight upward shift */
+  box-shadow: 0 8px 20px rgba(250, 204, 21, 0.5); /* Yellow glow shadow */
+}
+
+.timeline-item:hover::before {
+  box-shadow: 0 0 10px 5px rgba(250, 204, 21, 0.8); /* Glowing effect on the dot */
+}
+
+.timeline-item .bg-gray-800 {
+  background-color: #1f2937; /* Adjust card background to match the theme */
+  border-radius: 12px; /* Rounded corners for the card */
+  transition: background-color 0.4s ease, box-shadow 0.4s ease, border-radius 0.4s ease;
+}
+
+.timeline-item:hover .bg-gray-800 {
+  background-color: #2a3543; /* Slightly lighter color for the card on hover */
+  box-shadow: 0 8px 20px rgba(250, 204, 21, 0.5); /* Rounded glow shadow */
+  border-radius: 12px; /* Rounded glow shadow */
+}
