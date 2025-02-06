@@ -39,8 +39,8 @@ export default function AboutMe() {
           {/* Get Resume Button */}
           <div className="mt-6">
             <a
-              href="/resume.pdf" // Replace with actual resume link
-              className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-full shadow-lg hover:bg-yellow-300 transition duration-300"
+              href="/Vincent-Covelli Resume 2025.pdf"
+              className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-full shadow-lg hover:bg-yellow-300 transition duration-300"
               download
             >
               Get Resume

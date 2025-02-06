@@ -33,7 +33,7 @@ export default function Navbar() {
         {/* Buttons */}
         <div className="hidden md:flex space-x-4">
           <a
-            href="/resume.pdf"
+            href="/Vincent-Covelli Resume 2025.pdf"
             className="bg-yellow-400 text-black font-bold px-4 py-2 rounded-full shadow-lg hover:bg-yellow-300 transition"
           >
             Get Resume
