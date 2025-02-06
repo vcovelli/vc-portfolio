@@ -1,40 +1,40 @@
 .timeline {
-    position: relative;
-    padding: 1rem 0;
-  }
-  
-  .timeline::before {
-    content: '';
-    position: absolute;
-    left: 25px; /* Aligns the line closer to the dots */
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background-color: #facc15; /* Line color */
-  }
-  
-  .timeline-item {
-    position: relative;
-    margin-bottom: 2rem;
-    padding-left: 60px; /* Adds padding to shift the content away from the line */
-    transition: transform 0.4s ease, box-shadow 0.4s ease, border-radius 0.4s ease;
-    border-radius: 12px; /* Consistent rounded corners */
-  }
-  
-  .timeline-item::before {
-    content: '';
-    position: absolute;
-    left: 18.25px; /* Fine-tunes dot alignment with the line */
-    top: 50%; /* Centers the dot vertically with the timeline */
-    transform: translateY(-50%); /* Adjusts for perfect centering */
-    width: 16px;
-    height: 16px;
-    background-color: #facc15; /* Dot color */
-    border-radius: 50%;
-    transition: box-shadow 0.4s ease;
-  }
+  position: relative;
+  padding: 1rem 0;
+}
 
-  /* Hover Effects */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 25px; /* Aligns the line closer to the dots */
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #facc15; /* Line color */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 60px; /* Adds padding to shift the content away from the line */
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-radius 0.4s ease;
+  border-radius: 12px; /* Consistent rounded corners */
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 18.25px; /* Fine-tunes dot alignment with the line */
+  top: 50%; /* Centers the dot vertically with the timeline */
+  transform: translateY(-50%); /* Adjusts for perfect centering */
+  width: 16px;
+  height: 16px;
+  background-color: #facc15; /* Dot color */
+  border-radius: 50%;
+  transition: box-shadow 0.4s ease;
+}
+
+/* Hover Effects */
 .timeline-item:hover {
   transform: translateY(-5px); /* Slight upward shift */
   box-shadow: 0 8px 20px rgba(250, 204, 21, 0.5); /* Yellow glow shadow */
@@ -54,4 +54,29 @@
   background-color: #2a3543; /* Slightly lighter color for the card on hover */
   box-shadow: 0 8px 20px rgba(250, 204, 21, 0.5); /* Rounded glow shadow */
   border-radius: 12px; /* Rounded glow shadow */
+}
+
+/* Adjustments for Responsiveness */
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .timeline::before {
+    left: 20px; /* Adjust the line position */
+  }
+
+  .timeline-item {
+    padding-left: 50px; /* Reduce content padding */
+  }
+
+  .timeline-item::before {
+    left: 14px; /* Align dots for smaller screens */
+    width: 12px; /* Smaller dot size */
+    height: 12px;
+  }
+
+  .timeline-item .bg-gray-800 {
+    padding: 1rem; /* Adjust padding for the card */
+  }
 }
