@@ -1,0 +1,31 @@
+.timeline {
+    position: relative;
+    padding: 1rem;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 15px; /* Adjust this to align with the dots */
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #facc15; /* Adjust to match your theme */
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 8px; /* Align with the vertical line */
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #facc15; /* Same as the line color */
+    border-radius: 50%;
+  }
+  
