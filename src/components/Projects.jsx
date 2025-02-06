@@ -5,7 +5,7 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const projects = [
   {
     title: "Real-Time Stock Tracker",
-    description: "Built a real-time stock tracking system using Kafka, PostgreSQL, and React.",
+    description: "Built a real-time stock tracking system using Kafka, PostgreSQL, and Pandas.",
     github: "https://github.com/vcovelli/real-time-stock-tracker",
     liveDemo: "#",
     image: "https://source.unsplash.com/400x250/?stocks,finance",
@@ -13,14 +13,14 @@ const projects = [
   {
     title: "Healthcare Appointment Scheduler",
     description: "Developed a full-stack appointment booking app for healthcare businesses.",
-    github: "https://github.com/vcovelli/appointment-scheduler",
+    github: "https://github.com/vcovelli/healthcare-backend",
     liveDemo: "#",
     image: "https://source.unsplash.com/400x250/?healthcare,doctor",
   },
   {
     title: "Automated Data Pipeline",
     description: "Created an ETL pipeline using Snowflake, dbt, and AWS Lambda for data transformation.",
-    github: "https://github.com/vcovelli/etl-data-pipeline",
+    github: "https://github.com/vcovelli/data-pipeline-project",
     liveDemo: "#",
     image: "https://source.unsplash.com/400x250/?data,engineering",
   },
