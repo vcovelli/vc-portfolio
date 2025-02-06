@@ -2,12 +2,13 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience/Experience";
-import Skills from "./components/Skills";
-import Education from "./components/Education";
+import Skills from "./components/Skills/Skills";
+import Education from "./components/Education/Education";
 import Blogs from "./components/Blogs";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 import BackToTop from "./components/BackToTop";
+import Hero from "./components/Hero/Hero";
 
 export default function App() {
   return (
@@ -15,9 +16,7 @@ export default function App() {
       <Navbar />
       
       {/* Hero Section */}
-      <section id="hero" className="h-screen flex items-center justify-center">
-        <h1 className="text-5xl font-bold text-yellow-400">Vince Covelli</h1>
-      </section>
+      <Hero />
 
       {/* About Me Section */}
       <AboutMe />
