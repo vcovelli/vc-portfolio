@@ -1,0 +1,54 @@
+.skills-container {
+    text-align: center;
+    overflow: hidden;
+    background-color: #1f2937;
+    position: relative;
+  }
+  
+  .marquee-wrapper {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .marquee {
+    display: flex;
+    gap: 50px;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background: #1f2937;
+    border-radius: 12px;
+    font-size: 3rem;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .skill-name {
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
