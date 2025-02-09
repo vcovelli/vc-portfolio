@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import VisitorCounter from "./VisitorCounter";
 import "./Hero.css";
 
 export default function Hero() {
@@ -53,7 +54,7 @@ export default function Hero() {
 
         {/* Visitor Counter */}
         <p className="visitor-counter">
-          Visitor Count: <span className="counter-highlight">12345</span>
+          Visitor Count: <span className="counter-highlight"><VisitorCounter /></span>
         </p>
       </div>
     </section>
