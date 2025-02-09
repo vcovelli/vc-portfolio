@@ -13,9 +13,9 @@ export default function AboutMe() {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="https://via.placeholder.com/150" // Replace with your image
+            src="/RetouchedHeadshot-(4 of 5).jpg"
             alt="Vince Covelli"
-            className="rounded-lg shadow-lg w-64 h-64 object-cover mx-auto md:mx-0"
+            className="rounded-lg shadow-lg w-90 h-85 object-cover mx-auto md:mx-0"
           />
         </motion.div>
 
