@@ -13,7 +13,7 @@ export default function AboutMe() {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="/RetouchedHeadshot-(4 of 5).jpg"
+            src="/vc-portfolio/RetouchedHeadshot-4of5.jpg"
             alt="Vince Covelli"
             className="rounded-lg shadow-lg w-90 h-85 object-cover mx-auto md:mx-0"
           />
