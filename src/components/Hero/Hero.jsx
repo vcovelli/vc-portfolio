@@ -5,7 +5,7 @@ import "./Hero.css";
 
 export default function Hero() {
   return (
-    <section className="hero-container">
+    <section id="home" className="hero-container">
       {/* Background Grid */}
       <div className="grid-background"></div>
 
@@ -23,7 +23,7 @@ export default function Hero() {
             Contact Me
           </a>
           <a
-            href="/Vincent-Covelli Resume 2025.pdf"
+            href="/vc-portfolio/public/Vincent-Covelli Resume 2025.pdf"
             className="hero-btn resume-btn"
             target="_blank"
             rel="noopener noreferrer"
