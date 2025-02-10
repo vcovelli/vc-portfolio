@@ -8,21 +8,21 @@ const projects = [
     description: "Built a real-time stock tracking system using Kafka, PostgreSQL, and Pandas.",
     github: "https://github.com/vcovelli/real-time-stock-tracker",
     liveDemo: "#",
-    image: "https://source.unsplash.com/400x250/?stocks,finance",
+    image: "/vc-portfolio/images/Stocks1.jpg",
   },
   {
     title: "Healthcare Appointment Scheduler",
     description: "Developed a full-stack appointment booking app for healthcare businesses.",
     github: "https://github.com/vcovelli/healthcare-backend",
     liveDemo: "#",
-    image: "https://source.unsplash.com/400x250/?healthcare,doctor",
+    image: "/vc-portfolio/images/Healthcare1.jpg",
   },
   {
     title: "Automated Data Pipeline",
     description: "Created an ETL pipeline using Snowflake, dbt, and AWS Lambda for data transformation.",
     github: "https://github.com/vcovelli/data-pipeline-project",
     liveDemo: "#",
-    image: "https://source.unsplash.com/400x250/?data,engineering",
+    image: "/vc-portfolio/images/DataPipeline1.jpg",
   },
 ];
 

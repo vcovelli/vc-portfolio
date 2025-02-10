@@ -4,22 +4,16 @@ import './Timeline.css';
 
 const experiences = [
   {
-    company: "Your Current Company or Project",
-    title: "Lead Software Engineer",
-    duration: "2024 - Present",
-    description: "Building high-performance applications using React, Tailwind, and AWS.",
+    company: "Automated Business Solutions",
+    title: "Junior Technical Solutions Engineer",
+    duration: "Nov 2021 - Aug 2024",
+    description: "Involved designing and implementing automation workflows that improved operational efficiency for small businesses. This included integrating cloud solutions to optimize system scalability and reliability, while cloud-based collaboration tools were leveraged to enhance cross-team functionality. Gaining experience in managing cloud infrastructure, and optimizing business workflows to reduce completion time improving overall efficiency.",
   },
   {
-    company: "Previous Role or Project",
-    title: "Data Engineer",
-    duration: "2022 - 2024",
-    description: "Developed real-time data pipelines with Kafka, Snowflake, and dbt.",
-  },
-  {
-    company: "Another Role",
-    title: "Cloud Solutions Architect",
-    duration: "2020 - 2022",
-    description: "Implemented enterprise cloud solutions with Terraform and AWS.",
+    company: "Lincoln Electric",
+    title: "Summer Intern",
+    duration: "Jun 2021 - Aug 2021",
+    description: "Gaining hands-on experience in supply-chain optimization, organizational management, and manufacturing processes. Working at the headquarters in Euclid, Ohio, provided exposure to industry professionals and allowed for the development of essential skills in analysis, project management, and process optimization.",
   },
 ];
 

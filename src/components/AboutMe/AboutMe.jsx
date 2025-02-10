@@ -42,21 +42,21 @@ export default function AboutMe() {
           </h2>
 
           <p className="mt-4 text-lg text-gray-300 leading-relaxed">
-            I’m Vince Covelli, a results-driven developer with expertise in
-            **React, Tailwind CSS, AWS, Snowflake, Terraform, and data
-            engineering.** Passionate about building modern, efficient, and
-            scalable applications. Whether it's **frontend UI/UX** or **backend
-            data architecture**, I create solutions that deliver impact.
+            Hello, I’m Vincent A. Covelli—a technical professional passionate about creating innovative, scalable solutions that drive business success. With a degree in Business and minors in Marketing and Communications from Cleveland State University, I combine strategic thinking with hands-on technical expertise.
           </p>
-          <p className="mt-2 text-lg text-gray-400">
-            Always pushing the boundaries of what’s possible in **enterprise
-            software** and automation.
+
+          <p className="mt-4 text-lg text-gray-300 leading-relaxed">
+            My experience includes building custom CRM systems, business automation workflows, and full-stack applications. My portfolio highlights a real-time stock tracker, an ETL pipeline leveraging Snowflake and dbt, and a healthcare scheduling app built with Django and React.
+          </p>
+
+          <p className="mt-4 text-lg text-gray-300 leading-relaxed">
+            Certified in AWS and Azure, I’m skilled in cloud architecture, data engineering, and secure application development. I thrive at the intersection of technology and business, crafting solutions that solve complex challenges and deliver results.
           </p>
 
           {/* Get Resume Button */}
           <div className="mt-6">
             <a
-              href="/Vincent-Covelli Resume 2025.pdf"
+              href="/vc-portfolio/public/Vincent-Covelli Resume 2025.pdf"
               className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-full shadow-lg hover:bg-yellow-300 transition duration-300"
               download
             >
