@@ -60,7 +60,7 @@ export default function AboutMe() {
               className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-full shadow-lg hover:bg-yellow-300 transition duration-300"
               download
             >
-              Get Resume
+              Download Resume
             </a>
           </div>
         </motion.div>
