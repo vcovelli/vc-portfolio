@@ -1,85 +1,28 @@
-.navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #1f2937;
-  }
-  
+@media (max-width: 1023px) {
   .nav-links {
-    display: flex;
-    gap: 1.5rem;
+    display: none; /* Hide desktop links */
   }
-  
-  .nav-links a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    color: #facc15; /* Yellow hover effect */
-  }
-  
-  .nav-actions {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .nav-actions .get-resume-btn {
-    background-color: #facc15;
-    color: #1f2937;
-    padding: 0.5rem 1rem;
-    border-radius: 9999px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-  }
-  
-  .nav-actions .get-resume-btn:hover {
-    background-color: #1f2937;
-    color: #facc15;
-    border: 2px solid #facc15;
-  }
-  
+
   .hamburger {
-    display: none;
+    display: block; /* Show hamburger menu */
   }
-  
-  @media (max-width: 1024px) {
-    .nav-links {
-      display: none; /* Hide links for tablet screens */
-    }
-  
-    .hamburger {
-      display: block; /* Show hamburger icon for tablet/mobile */
-      color: #facc15;
-      font-size: 1.5rem;
-      cursor: pointer;
-    }
-  
-    .mobile-menu {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      background-color: #1f2937;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      gap: 1rem;
-      padding: 1rem 0;
-    }
-  
-    .mobile-menu a {
-      color: white;
-      text-align: center;
-      padding: 0.5rem 0;
-      transition: background-color 0.3s ease;
-    }
-  
-    .mobile-menu a:hover {
-      background-color: #facc15;
-      color: #1f2937;
-    }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #1f2937;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 1rem;
+    padding: 1rem 0;
   }
-  
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu {
+    display: none; /* Hide mobile menu */
+  }
+}
