@@ -26,7 +26,7 @@ const VisitorCounter = () => {
             });
     }, []);
 
-    return <span>Visitor Count: {visitorCount}</span>;
+    return <span> {visitorCount}</span>;
 };
 
 export default VisitorCounter;
