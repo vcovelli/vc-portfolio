@@ -8,21 +8,21 @@ const blogPosts = [
     description: "How to design AWS cloud solutions that scale seamlessly with business growth.",
     link: "#",
     image: "/vc-portfolio/images/Optimizing1.jpg",
-    url: "/blogs/cloud-architecture"
+    url: "/blog/blogposts/cloud-architecture"
   },
   {
     title: "Data Pipelines: A Guide for Engineers",
     description: "Breaking down ETL processes, dbt, Snowflake, and best practices for data engineering.",
     link: "#",
     image: "/vc-portfolio/images/Pipes1.jpg",
-    url: "/blogs/data-pipelines"
+    url: "/blog/blogposts/data-pipelines"
   },
   {
     title: "Mastering React Animations with Framer Motion",
     description: "A deep dive into animations that make UI experiences feel smooth and modern.",
     link: "#",
     image: "/vc-portfolio/images/AnimationCode1.jpg",
-    url: "/blogs/react-animations"
+    url: "/blog/blogposts/react-animations"
   },
 ];
 
