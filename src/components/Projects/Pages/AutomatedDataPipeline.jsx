@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function AutomatedDataPipeline() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center items-center py-12">
       <div className="max-w-4xl w-full bg-white rounded-2xl shadow-lg p-8">
