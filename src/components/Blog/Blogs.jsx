@@ -35,22 +35,23 @@ export default function Blogs() {
         <div className="grid md:grid-cols-3 gap-8">
           {blogPosts.map((post, index) => (
             <motion.div
-            key={index}
-            className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
-            viewport={{ once: true }}
-          >
-            <img src={post.image} alt={post.title} className="w-full h-40 object-cover" />
-            <div className="p-5">
-              <h3 className="text-xl font-semibold text-white">{post.title}</h3>
-              <p className="text-gray-400 mt-2">{post.description}</p>
-              <Link to={post.url} className="text-yellow-400 hover:underline mt-4 inline-block">
-                Read More →
-              </Link>
-            </div>
-          </motion.div>
+              key={index}
+              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transition duration-300"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+              viewport={{ once: true }}
+              whileHover={{ scale: 1.02, boxShadow: "0px 8px 20px rgba(250, 204, 21, 0.2)" }} // Subtle hover effect
+            >
+              <img src={post.image} alt={post.title} className="w-full h-40 object-cover" />
+              <div className="p-5">
+                <h3 className="text-xl font-semibold text-white">{post.title}</h3>
+                <p className="text-gray-400 mt-2">{post.description}</p>
+                <Link to={post.url} className="text-yellow-400 hover:underline mt-4 inline-block">
+                  Read More →
+                </Link>
+              </div>
+            </motion.div>
           ))}
         </div>
       </div>

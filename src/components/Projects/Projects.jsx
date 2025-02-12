@@ -36,11 +36,12 @@ export default function Projects() {
           {projects.map((project, index) => (
             <motion.div
               key={index}
-              className="bg-gray-900 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
+              className="bg-gray-900 rounded-lg shadow-lg overflow-hidden transition duration-300"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
+              whileHover={{ scale: 1.02, boxShadow: "0px 8px 20px rgba(250, 204, 21, 0.2)" }} // Subtle hover effect
             >
               {/* Clickable Card to Navigate */}
               <Link to={project.liveDemo} className="block">
