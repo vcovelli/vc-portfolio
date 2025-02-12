@@ -52,7 +52,7 @@ export default function Navbar() {
         {/* Get Resume Button (Only on large screens and hidden when mobile menu is open) */}
         <div className={`hidden lg:flex space-x-4 ${isMenuOpen ? "hidden" : "flex"}`}>
           <a
-            href="/vc-portfolio/public/Vincent-Covelli Resume 2025.pdf"
+            href="/vc-portfolio/Vincent-Covelli-Resume-2025.pdf"
             className="bg-yellow-400 text-black font-bold px-4 py-2 rounded-full shadow-lg hover:bg-yellow-300 transition"
           >
             Get Resume
