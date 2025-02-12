@@ -5,6 +5,7 @@ export default function AboutMe() {
   return (
     <section id="about" className="py-20 bg-gray-800 text-white">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row-reverse items-center gap-8">
+
         {/* Mobile-Only Heading */}
         <motion.h2
           className="text-4xl font-bold text-yellow-400 mb-4 md:hidden"
@@ -42,21 +43,39 @@ export default function AboutMe() {
           </h2>
 
           <p className="mt-4 text-lg text-gray-300 leading-relaxed">
-            Hello, I’m Vincent A. Covelli—a technical professional passionate about creating innovative, scalable solutions that drive business success. With a degree in Business and minors in Marketing and Communications from Cleveland State University, I combine strategic thinking with hands-on technical expertise.
+            Hello, I’m <span className="text-yellow-400 font-bold">Vincent A. Covelli</span>—a 
+            <span> technical professional</span> passionate about creating 
+            <span> innovative, scalable solutions</span> that drive business success.
+            With a degree in <span>Business</span> and minors in 
+            <span> Marketing and Communications</span> from 
+            <span className="font-bold"> Cleveland State University</span>, I combine 
+            <span> strategic thinking</span> with <span> hands-on technical expertise</span>.
           </p>
 
           <p className="mt-4 text-lg text-gray-300 leading-relaxed">
-            My experience includes building custom CRM systems, business automation workflows, and full-stack applications. My portfolio highlights a real-time stock tracker, an ETL pipeline leveraging Snowflake and dbt, and a healthcare scheduling app built with Django and React.
+            My experience includes building 
+            <span> custom CRM systems</span>, 
+            <span> business automation workflows</span>, 
+            and <span> full-stack applications</span>. 
+            My portfolio highlights a <span> real-time stock tracker</span>, 
+            an <span> ETL pipeline leveraging Snowflake and dbt</span>, 
+            and a <span> healthcare scheduling app</span> built with 
+            <span> Django and React</span>.
           </p>
 
           <p className="mt-4 text-lg text-gray-300 leading-relaxed">
-            Certified in AWS and Azure, I’m skilled in cloud architecture, data engineering, and secure application development. I thrive at the intersection of technology and business, crafting solutions that solve complex challenges and deliver results.
+            Certified in <span className="text-orange-400 font-bold">AWS</span> and <span className="text-blue-400 font-bold">Azure</span>, 
+            I’m skilled in <span> cloud architecture</span>, 
+            <span> data engineering</span>, and 
+            <span> secure application development</span>. 
+            I thrive at the intersection of <span> technology and business</span>, 
+            crafting solutions that solve complex challenges and deliver results.
           </p>
 
           {/* Get Resume Button */}
           <div className="mt-6">
             <a
-              href="/vc-portfolio/public/Vincent-Covelli Resume 2025.pdf"
+              href="/vc-portfolio/Vincent-Covelli-Resume-2025.pdf"
               className="px-6 py-3 bg-yellow-400 text-black font-bold rounded-full shadow-lg hover:bg-yellow-300 transition duration-300"
               download
             >

@@ -68,3 +68,21 @@
     font-size: 0.875rem; /* Smaller text size on mobile */
   }
 }
+
+/* Styling for Read More Section */
+.collapsible-section {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.collapsible-section.expanded {
+  max-height: 300px;
+}
+
+/* Read More Button */
+.read-more-btn {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1rem;
+}
