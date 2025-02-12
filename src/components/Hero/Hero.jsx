@@ -23,7 +23,7 @@ export default function Hero() {
             Contact Me
           </a>
           <a
-            href="/vc-portfolio/public/Vincent-Covelli Resume 2025.pdf"
+            href="/vc-portfolio/Vincent-Covelli-Resume-2025.pdf"
             className="hero-btn resume-btn"
             target="_blank"
             rel="noopener noreferrer"
