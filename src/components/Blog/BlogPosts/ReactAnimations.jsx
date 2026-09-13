@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import { motion } from "framer-motion";
 
 export default function ReactAnimations() {
@@ -101,7 +101,7 @@ export default function ReactAnimations() {
             animate={{ opacity: [0.2, 1, 0.2] }}
             transition={{ repeat: Infinity, duration: 3 }}
           >
-            "If everything is animated, nothing is animated." — Some wise React dev, probably.
+            &quot;If everything is animated, nothing is animated.&quot; — Some wise React dev, probably.
           </motion.p>
         </motion.div>
 

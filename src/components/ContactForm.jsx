@@ -1,15 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
   const [status, setStatus] = useState({ type: "", message: "" });
 
   const handleSubmit = (e) => {

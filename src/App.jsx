@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import AboutMe from "./components/AboutMe/AboutMe";
@@ -45,7 +44,7 @@ export default function App() {
                   id="footer"
                   className="h-20 flex items-center justify-center bg-gray-800 text-gray-400"
                 >
-                  <p>© 2025 Vince Covelli. All Rights Reserved.</p>
+                  <p>© {new Date().getFullYear()} Vince Covelli. All rights reserved.</p>
               </section>
             </>
           }

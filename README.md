@@ -1,8 +1,17 @@
-# React + Vite
+# Vincent Covelli — portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional portfolio with selected application and data-engineering projects, work experience, education, and contact information.
 
-Currently, two official plugins are available:
+[View the portfolio](https://vcovelli.github.io/vc-portfolio/) · [LinkedIn](https://www.linkedin.com/in/vincent-covelli/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built with React, Vite, Tailwind CSS and Framer Motion. The contact form uses EmailJS; its browser identifiers are public configuration. Restrict the service to the portfolio's allowed origins in the EmailJS dashboard.
+
+## Local development
+
+Use Node.js 22 or later. Run `npm ci`, then `npm run dev`. `npm run build` generates `dist/`.
+
+## Publishing
+
+The source lives on `main`. `npm run deploy` builds the site and publishes `dist/` to `gh-pages`. GitHub Pages serves that branch. Keep build output off the source branch.
+
+The résumé and headshot in `public/` are intentionally public professional assets. Check the résumé before publishing a new version. Runtime credentials belong in ignored local environment files; commit checks and CI scan for accidental credentials.

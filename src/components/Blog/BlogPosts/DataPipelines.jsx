@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import {useEffect} from "react";
 import { motion } from "framer-motion";
 
 export default function DataPipelines() {
@@ -71,7 +71,7 @@ export default function DataPipelines() {
           </h2>
           <p className="mt-2">
             <span className="font-bold">dbt (Data Build Tool)</span> is an essential tool for transforming raw data into structured models directly within the data warehouse. 
-            Unlike traditional ETL tools, <span className="font-bold">dbt focuses only on the "T" (Transformation) step</span>, making SQL-based transformations <span className="font-bold">modular, testable, and scalable</span>.
+            Unlike traditional ETL tools, <span className="font-bold">dbt focuses only on the &quot;T&quot; (Transformation) step</span>, making SQL-based transformations <span className="font-bold">modular, testable, and scalable</span>.
           </p>
           <ul className="mt-2 list-disc list-inside space-y-2">
             <li>Enables <span className="font-bold">version-controlled SQL models</span>.</li>

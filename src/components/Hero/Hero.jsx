@@ -1,6 +1,4 @@
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import VisitorCounter from "./VisitorCounter";
 import "./Hero.css";
 
 export default function Hero() {
@@ -12,7 +10,7 @@ export default function Hero() {
       {/* Hero Content */}
       <div className="hero-content">
         <h1 className="hero-name">Vince Covelli</h1>
-        <p className="hero-descriptors">Innovator | Full-stack Developer | Problem Solver</p>
+        <p className="hero-descriptors">Full-stack applications · Data engineering · Business automation</p>
 
         {/* Buttons */}
         <div className="hero-buttons">
@@ -52,10 +50,6 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Visitor Counter */}
-        <p className="visitor-counter">
-          Visitor Count: <span className="counter-highlight"><VisitorCounter /></span>
-        </p>
       </div>
     </section>
   );
